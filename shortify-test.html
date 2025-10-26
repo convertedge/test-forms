@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Shortify email test</h2>
+
+    <a href="./index.html">back home</a>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br />
+      <label for="email">Email address:</label><br />
+      <input type="email" id="email" name="email" value="foo@example.com" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+  </body>
+
+  <script>
+    var script = document.createElement("script");
+    script.async = true;
+    script.type = "module";
+
+    var code = 'import { Convertedge } from "https://convertedge.cloud"; new Convertedge("1eb238be-255f-422d-87ac-910a2b9e4d34");';
+    script.appendChild(document.createTextNode(code));
+
+    document.body.appendChild(script);
+  </script>
+</html>
