@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
+  base: "https://convertedge.github.io/test-forms",
   build: {
     rollupOptions: {
       input: {
