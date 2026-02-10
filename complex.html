@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 dark:bg-gray-900">
+    <div class="h-dvh isolate bg-gray-50 px-6 py-24 sm:py-32 lg:px-8 dark:bg-gray-900">
       <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
         <div
           style="
@@ -94,12 +94,12 @@
           </div>
 
           <div>
-            <label for="role" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Role</label>
+            <label for="company-size" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Company size</label>
             <div class="mt-2.5">
               <input
-                id="role"
+                id="company-size"
                 type="text"
-                name="role"
+                name="company-size"
                 class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
               />
             </div>
@@ -118,14 +118,38 @@
           </div>
 
           <div class="sm:col-span-2">
-            <label for="message" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Message</label>
+            <label for="industry" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Industry</label>
             <div class="mt-2.5">
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
+              <input
+                id="industry"
+                type="text"
+                name="industry"
                 class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
-              ></textarea>
+              />
+            </div>
+          </div>
+
+          <div class="sm:col-span-1">
+            <label for="role" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Role</label>
+            <div class="mt-2.5">
+              <input
+                id="role"
+                type="text"
+                name="role"
+                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
+              />
+            </div>
+          </div>
+
+          <div class="sm:col-span-1">
+            <label for="seniority" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Seniority</label>
+            <div class="mt-2.5">
+              <input
+                id="seniority"
+                type="text"
+                name="seniority"
+                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
+              />
             </div>
           </div>
         </div>

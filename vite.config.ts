@@ -11,6 +11,7 @@ export default defineConfig({
         // key = final output path, value = source html file
         main: resolve(__dirname, "index.html"),
         complex: resolve(__dirname, "complex.html"),
+        complex2: resolve(__dirname, "complex2.html"),
         "email-text": resolve(__dirname, "email-text.html"),
         "no-form": resolve(__dirname, "no-form.html"),
         "one-email": resolve(__dirname, "one-email.html"),
